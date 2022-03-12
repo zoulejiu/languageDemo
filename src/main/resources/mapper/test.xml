@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.AccountBaseInfoMapper">
+  <resultMap id="BaseResultMap" type="com.example.model.AccountBaseInfo">
+    <!--@mbg.generated -->
+    <!--@Table account_base_info -->
+    <!-- generated on Sat Jan 22 16:45:00 CST 2022 -->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="iphone" jdbcType="VARCHAR" property="iphone" />
+    <result column="id_card" jdbcType="VARCHAR" property="idCard" />
+    <result column="is_adult" jdbcType="INTEGER" property="isAdult" />
+    <result column="type" jdbcType="INTEGER" property="type" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="user_id" jdbcType="BIGINT" property="userId" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="create_user" jdbcType="BIGINT" property="createUser" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="update_user" jdbcType="BIGINT" property="updateUser" />
+  </resultMap>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    webUrl1 = www.test.com
+  </select>
+
+</mapper>
